@@ -1,0 +1,35 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+ //Bootstrap
+@import '~bootstrap/scss/bootstrap';
+//@import '~vuetify/dist/vuetify.min.css';
+@import '~admin-lte/dist/css/adminlte.min.css';
+@import '~admin-lte/plugins/datatables/dataTables.bootstrap4.css';
+@import '~admin-lte/plugins/select2/select2.min.css';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/icons";
+@import "~@fortawesome/fontawesome-free/scss/core";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+//@import "~material-design-icons/iconfont/material-icons.css";
+
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+.tabledit-toolbar.btn-toolbar {
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+//.router-link-exact-active{
+//  background-color: #0c5460;
+//  color:#fff !important;
+//}
